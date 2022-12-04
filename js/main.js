@@ -1,4 +1,4 @@
-let elBtn = $(".header-nav__btn")
+let elBtn = $(".header-nav-btn")
 let siteMenu = $(".header-nav__list--nav")
 
 elBtn.addEventListener("click", ()=> {
