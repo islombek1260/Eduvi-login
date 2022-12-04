@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <main>
+        <section class="login">
+            <div class="login-box">
+                <div class="login-box__left">
+                    <div class="login-box__leftbox">
+                        <img class="login-box__logo" src="./images/Logo.svg" width="80" height="20"
+                            alt="sitelogo-eduvi">
+                        <h3 class="login-box__theme">Welcome to Eduvi Online Learning Platform</h3>
+                        <img class="login-box__img" src="/images/login-photo.svg" alt="login-photo">
+                    </div>
+                </div>
+                <img class="line" src="/images/Line.svg" alt="line">
+                <div class="login-box__right">
+                    <form class="login-box__google-form" action="#">
+                        <label class="login-box__google-label" for="google">
+                            <input class="login-box__google-input" type="text" placeholder="Signup with google">
+                        </label>
+                    </form>
+                    <span class="login-box__span">- Or signup with your email -</span>
+                    <form class="login-box__form" action="#" id="reg">
+                        <label class="login-box__form--label" for="login">
+                            Email
+                            <input id="email" class="login-box__email" type="email"
+                                placeholder="bill.sanders@example.com">
+                        </label>
+                        <label class="login-box__form--label" for="password">
+                            Password
+                            <input id="password" class="login-box__password" type="password" placeholder="*************"
+                                required>
+                        </label>
+                        <button class="login-box__btn btn-violet" type="submit">Registration</button>
+                    </form>
+
+                    <div class="keep-me">
+                        <label class="chek-box-login" for="Conditions">
+                            <input class="chek-box-chek" type="checkbox" value="chek">
+                            keep me signed in
+                        </label>
+                        <a class="forgot-password" href="#">Forgot password?</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+<script src="./js/utilits.js"></script>
+<script src="/js/auth.js"></script>
+
+</html>
